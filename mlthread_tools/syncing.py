@@ -1,4 +1,4 @@
-import multithreaded_mutex
+import multithreaded_mutex as threads_lock
 
 __version__ = 0.012
 
@@ -8,9 +8,6 @@ class SingletonClass(object):
         if not hasattr(cls, 'instance'):
             cls.instance = super(SingletonClass, cls).__new__(cls)
         return cls.instance
-
-
-threads_lock = multithreaded_mutex.mlt_mutex.Lock()
 
 
 class SyncBase(SingletonClass):
