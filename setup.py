@@ -3,8 +3,7 @@ from setuptools import setup
 setup(
     name='mlthread-tools',
     version='0.051',
-    packages=[''],
-    package_dir={'': 'mlthread_tools'},
+    packages=['mlthread_tools'],
     url='https://github.com/cubecloud/mlthread-tools',
     license='MIT',
     author='cubecloud',
