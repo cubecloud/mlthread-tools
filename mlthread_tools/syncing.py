@@ -1,6 +1,6 @@
-import multithreaded_mutex as threads_lock
+from mlthread_tools.multithreaded_mutex import mlt_mutex
 
-__version__ = 0.012
+__version__ = 0.051
 
 
 class SingletonClass(object):
@@ -11,7 +11,7 @@ class SingletonClass(object):
 
 
 class SyncBase(SingletonClass):
-    lock = threads_lock
+    lock = mlt_mutex
 
 
 class SyncingPipelines(SyncBase):
