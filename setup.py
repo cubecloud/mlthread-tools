@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='mlthread-tools',
-    version='0.051',
+    version='0.055',
     packages=['mlthread_tools'],
     url='https://github.com/cubecloud/mlthread-tools',
     license='MIT',
