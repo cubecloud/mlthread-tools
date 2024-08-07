@@ -1,3 +1,3 @@
-import threading
+from threading import RLock
 
-mlt_mutex = threading.RLock()
+mlt_mutex = RLock()
