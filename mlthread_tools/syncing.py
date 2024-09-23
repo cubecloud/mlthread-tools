@@ -1,9 +1,10 @@
 from mlthread_tools.multithreaded_mutex import mlt_mutex
 
-__version__ = 0.051
+__version__ = 0.056
 
 
 class SingletonClass(object):
+    @classmethod
     def __new__(cls):
         if not hasattr(cls, 'instance'):
             cls.instance = super(SingletonClass, cls).__new__(cls)

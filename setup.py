@@ -8,5 +8,5 @@ setup(
     license='MIT',
     author='cubecloud',
     author_email='zenroad60@gmail.com',
-    description='tools for syncing multi threads and collaborate across threads'
+    description='tools for syncing multi threads and collaborate across threads, '
 )
